@@ -2,8 +2,8 @@ require 'twilio-ruby'
 class Send_Text
 
     def initialize
-        @account_sid = 'AC10a9754313ad48747fa1ad491a31ef38'
-        @auth_token = 'ebe85118255775409606f46cfa487388'
+        @account_sid = "id placeholder"
+        @auth_token = 'token placeholder'
         @client = Twilio::REST::Client.new(@account_sid, @auth_token)
 
         @from = '+447700161756' # Your Twilio number
